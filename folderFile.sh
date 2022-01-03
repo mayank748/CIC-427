@@ -1,5 +1,6 @@
 #! /bin/bash -x
 
+echo "Creating folder based on file name and copying the file"
 folderName=''
 for file in `ls *.sh`
 do
